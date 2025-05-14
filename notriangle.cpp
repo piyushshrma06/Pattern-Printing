@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int n;
+    cout<< " Enter no of rows: ";
+    cin>>n;
+    int a=1;
+    // no. of lines 
+    for(int i = 1 ; i <=n ; i++){ 
+        
+
+        //no.of star in each lines
+
+        for(int j = 1 ; j <= i; j++){
+            cout<<a<<" ";
+            a++;
+        }
+        // ek line k baadh next line
+        cout<<endl;
+ 
+    }
+}
